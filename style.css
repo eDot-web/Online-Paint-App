@@ -1,0 +1,89 @@
+*{
+    font-family: 'futura pt';
+}
+
+body{
+    text-align: center;
+    background: url('./Background.png') center no-repeat fixed;
+    background-size: cover;
+}
+
+header{
+    margin: 10px 30px;
+    background: linear-gradient(white,burlywood,sandybrown);
+    background: -webkit-linear-gradient(white,burlywood,sandybrown);
+    background: -moz-linear-gradient(white,burlywood,sandybrown);
+    background: -o-linear-gradient(white,burlywood,sandybrown);
+    font-size: 3em;
+    padding: 0.4em;
+}
+
+.inputContainer{
+    width: 200px;
+    margin: 0 auto; 
+}
+
+.input{
+    margin-bottom: 10px;
+    height: 20px;
+    font-size: 1.3em;
+}
+
+#circle{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background: black;
+    margin: 0 auto;
+}
+
+#thickness{
+    position: relative;
+}
+
+#container{
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgba(122,174,299,0.5);
+    margin: 10px auto;
+}
+
+#canvas{
+    background-color: white;
+    cursor: crosshair;
+}
+
+.btnContainer{
+    width: 399px;
+    margin: 0 auto;
+}
+
+.buttons{
+    width: 133px;
+    color: sandybrown;
+    font-size: 1.3em;
+    float: left;
+}
+
+.button{
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.button:hover{
+    background: linear-gradient(white,rgba(67,169,228,0.9));
+}
+
+.button:active{
+    top: 4px;
+}
+
+.eraseMode{
+    background-color: red;
+    color: white;
+}
